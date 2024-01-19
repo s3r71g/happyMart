@@ -1,0 +1,74 @@
+name: saraag_s_happymart
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  pin_code_fields: ^8.0.1
+  another_stepper: ^1.2.2
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Black Han Sans
+      fonts: 
+        - asset: assets/fonts/BlackHanSansRegular.ttf
+          weight: 400
+    - family: Rosario
+      fonts: 
+        - asset: assets/fonts/RosarioRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RosarioRomanSemiBold.ttf
+          weight: 600
+    - family: Roboto Serif
+      fonts: 
+        - asset: assets/fonts/RobotoSerifSemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/InterLight.ttf
+          weight: 300
+    - family: Itim
+      fonts: 
+        - asset: assets/fonts/ItimRegular.ttf
+          weight: 400
+    - family: Londrina Solid
+      fonts: 
+        - asset: assets/fonts/LondrinaSolidRegular.ttf
+          weight: 400
+    - family: Alfa Slab One
+      fonts: 
+        - asset: assets/fonts/AlfaSlabOneRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/MontserratRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
